@@ -17,6 +17,7 @@
     "watch": "onchange 'ang-jsoneditor/**/*.ts' -- npm run build:lib && npm run build:libcopy",
     "build:full": "npm run build:lib && npm run build:app",
     "publishnpm": "cp README.md ang-jsoneditor/README.md && npm run build:lib && cd dist/ang-jsoneditor && npm publish",
+    "publishnpmbeta": "cp README.md ang-jsoneditor/README.md && npm run build:lib && cd dist/ang-jsoneditor && npm publish --tag beta",
     "unpublish": "npm deprecate -f 'ang-jsoneditor@1.9.3' 'this package has been deprecated'",
     "test": "npm run test:dev && npm run e2e",
     "test:dev": "ng test dev --watch=false",
