@@ -19,7 +19,8 @@ To install this library with npm, run below command:
 
 |Compatibility|Command|Stability|
 |---|---|---|
-|Angular 12|`npm install @maaxgr/ang-jsoneditor@2.0.0`|Stable|
+|Angular 11|`npm install @maaxgr/ang-jsoneditor@11`|Stable|
+|Angular 12|`npm install @maaxgr/ang-jsoneditor@12`|Stable|
 |Angular 13|...|Work in Progress|
 
 **WARNING:** Although Version 2.0.0 is marked as stable,
