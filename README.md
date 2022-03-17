@@ -19,8 +19,8 @@ To install this library with npm, run below command:
 
 |Compatibility|Command|Stability|
 |---|---|---|
-|Angular 11|`npm install @maaxgr/ang-jsoneditor@11`|Stable|
-|Angular 12|`npm install @maaxgr/ang-jsoneditor@12`|Stable|
+|Angular 11|`npm install @mharisko/ang-jsoneditor@11`|Stable|
+|Angular 12|`npm install @mharisko/ang-jsoneditor@12`|Stable|
 |Angular 13|...|Work in Progress|
 
 **WARNING:** Although versions are marked as stable,
@@ -34,7 +34,7 @@ there can be still bugs because this project isn't heavily integrated in a lot o
 First import `NgJsonEditorModule`-Module in module.ts:
 
 ```ts
-import { NgJsonEditorModule } from '@maaxgr/ang-jsoneditor' 
+import { NgJsonEditorModule } from '@mharisko/ang-jsoneditor' 
 
 @NgModule({
   declarations: [
@@ -53,7 +53,7 @@ export class AppModule { }
 Then setup your component models as below:
 ```ts
 import {Component} from '@angular/core';
-import {JsonEditorOptions} from "@maaxgr/ang-jsoneditor";
+import {JsonEditorOptions} from "@mharisko/ang-jsoneditor";
 
 @Component({
   selector: 'app-root',

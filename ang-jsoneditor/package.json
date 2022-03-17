@@ -1,13 +1,13 @@
 {
-  "name": "@maaxgr/ang-jsoneditor",
-  "version": "12.0.0",
+  "name": "@mharisko/ang-jsoneditor",
+  "version": "13.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/MaaxGr/ang-jsoneditor",
+  "homepage": "https://github.com/mharisko/ang-jsoneditor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MaaxGr/ang-jsoneditor"
+    "url": "https://github.com/mharisko/ang-jsoneditor"
   },
-  "author": "Max Großmann <github@maax.gr>, Mario Mol <mariohmol@gmail.com>, Manish Sodavadiya <manish_it56@yahoo.com>",
+  "author": "Muhammed Haris <me.haris.k@gmail.com>",
   "keywords": [
     "angular",
     "jsoneditor",
@@ -16,9 +16,9 @@
     "angular"
   ],
   "peerDependencies": {
-    "@angular/core": "12.x",
-    "@angular/common": "12.x",
-    "jsoneditor": "^9.1.8"
+    "@angular/core": "13.x",
+    "@angular/common": "13.x",
+    "jsoneditor": "^9.7.4"
   },
   "ngPackage": {
     "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
