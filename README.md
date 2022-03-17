@@ -19,9 +19,7 @@ To install this library with npm, run below command:
 
 |Compatibility|Command|Stability|
 |---|---|---|
-|Angular 11|`npm install @mharisko/ang-jsoneditor@11`|Stable|
-|Angular 12|`npm install @mharisko/ang-jsoneditor@12`|Stable|
-|Angular 13|...|Work in Progress|
+|Angular 13|`npm install @mharisko/ang-jsoneditor@13`|Stable|
 
 **WARNING:** Although versions are marked as stable,
 there can be still bugs because this project isn't heavily integrated in a lot of produuction projects 
